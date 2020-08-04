@@ -1,0 +1,106 @@
+.decoration1{
+    position: absolute;
+    width: 7.5vw;
+    height: 8px;
+    top: 65%;
+    left: 60.5vw;
+    background-color: #0a163a;
+    transform: skewX(-45deg);
+}
+.decoration1>div:nth-child(1){
+    position: absolute;
+    width: 1vw;
+    height: 8px;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(2){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 1.1vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(3){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 1.5vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(4){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 1.8vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(5){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 2.2vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(6){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 2.5vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(7){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 2.8vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(8){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 3.2vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(9){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 3.6vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(10){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 4vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(11){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 4.4vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(12){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 4.8vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(13){
+    position: absolute;
+    width: 0.2vw;
+    height: 8px;
+    left: 5.15vw;
+    background-color: aquamarine;
+}
+.decoration1>div:nth-child(14){
+    position: absolute;
+    width: 2vw;
+    height: 8px;
+    left: 5.5vw;
+    background-color: aquamarine;
+}

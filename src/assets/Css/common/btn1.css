@@ -1,0 +1,78 @@
+.btn{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 12%;
+    /* height: 50%; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.btn>div{
+    position: relative;
+    width: 100%;
+    border: none;
+    color: white;
+    text-shadow: yellowgreen 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+.btn>div:nth-child(2){
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transition: 0.8s;
+}
+.btn>div:nth-child(2)>a{
+    margin-top: 4px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-top: #59cdf7 1px solid;
+    border-bottom: #59cdf7 1px solid;
+    border-left: #59cdf7 1px solid;
+    border-right: #59cdf7 1px solid;
+    border-radius: 4px;
+    box-shadow: #59cdf7 0 0 2vh;
+    width: 100%;
+}
+.btn>div:nth-child(2)>a:hover{
+    background-color: #2a6087;
+}
+.btn:hover :nth-child(2){
+    transform: scale(1);
+}
+.btn2{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+}
+.btn3{
+    left: 70%;
+}
+.btn4{
+    left: 80%;
+}
+
+
+/* .btn2{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    width: 20%;
+    height: 50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.btn2>div{
+    border: none;
+    color: white;
+    /* border-bottom: #59cdf7 1px solid; */
+/* } */ 
