@@ -1,106 +1,22 @@
 .decoration{
-    position: absolute;
-    width: 7.5vw;
-    height: 8px;
-    top: 65%;
-    left: 32vw;
-    background-color: #0a163a;
-    transform: skewX(45deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.decoration>div:nth-child(1){
-    position: absolute;
-    width: 2vw;
-    height: 8px;
+.decoration>div{
+    margin-left: 1%;
+    width: 2%;
+    height: 100%;
     background-color: aquamarine;
 }
-.decoration>div:nth-child(2){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 2.1vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(3){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 2.5vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(4){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 2.8vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(5){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 3.2vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(6){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 3.5vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(7){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 3.8vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(8){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 4.2vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(9){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 4.6vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(10){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 5vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(11){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 5.4vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(12){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 5.8vw;
-    background-color: aquamarine;
-}
-.decoration>div:nth-child(13){
-    position: absolute;
-    width: 0.2vw;
-    height: 8px;
-    left: 6.15vw;
+.decoration>div:first-child{
+    width: 20%;
+    height: 12px;
     background-color: aquamarine;
 }
 .decoration>div:nth-child(14){
-    position: absolute;
-    width: 1vw;
-    height: 8px;
-    left: 6.5vw;
+    width: 20%;
+    height: 100%;
     background-color: aquamarine;
 }

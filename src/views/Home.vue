@@ -2,6 +2,73 @@
   <div class="home">
     <header class="headerCss">
       <h4>高速卷绕机智能运维平台</h4>
+      <div class="deck">
+        <div></div>
+        <div></div>
+        <div class="decoration">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="decoration">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="decoration1">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="decoration1">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="topBar1">
+        <div class="btns">
+          <div class="caidan">实时监控</div>
+          <div>
+            <a href="#">监控区域1</a>
+            <a href="#">监控区域2</a>
+            <a href="#">监控区域3</a>
+          </div>
+        </div>
+        <div class="btns">设备信息</div>
+        <div class="btns">仓储信息</div>
+      </div>
+      <div class="topBar2">
+        <div class="btns">故障信息</div>
+        <div class="btns">维修记录</div>
+        <div class="btns">系统设置</div>
+      </div>
     </header>
     <main class="contentInfo">
     </main>
@@ -49,15 +116,14 @@ export default {
   @import url("../assets/Css/home/header.css");
   @import url("../assets/Css/home/footer.css");
   @import url("../assets/Css/home/main.css");
-  /* @import url("../assets/Css/common/decoration.css");
+  @import url("../assets/Css/common/decoration.css");
   @import url("../assets/Css/common/decoration1.css");
-  @import url("../assets/Css/common/decoration2.css");
-  @import url("../assets/Css/common/btn1.css"); */
+  @import url("../assets/Css/common/btn1.css");
+
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #0a163a;
   }
   .home{
     position: relative;
@@ -68,6 +134,6 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: aqua;
+    background: black;
   }
 </style>
