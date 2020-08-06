@@ -74,7 +74,7 @@ export default {
         if (res.data === '成功！') {
           alert('登录成功！')
           setTimeout(() => {
-            _this.$router.push('/home')
+            _this.$router.push('/home/monitor')
           }, 500)
           // this.Effective_time = 70
         } else {
@@ -86,7 +86,7 @@ export default {
         console.log(err)
         alert('服务器连接失败!,尝试本地登录!')
         setTimeout(() => {
-          _this.$router.push('/home')
+          _this.$router.push('/home/monitor')
         }, 100)
       })
     }, // 登录逻辑

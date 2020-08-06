@@ -24,6 +24,9 @@
     left: 1%;
     top: 50%; 
 }
+.topBar1>div:nth-child(1){
+    box-shadow: #59cdf7 0 0 5px;
+}
 .topBar2{
     right: 1%;
     top: 50%;

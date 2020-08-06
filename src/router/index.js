@@ -9,14 +9,17 @@ const routes = [
   {
     path: '/home',
     name: 'Home',
-    component: Home
-    // children: [ // 二级路由的配置
-    //   {
-    //     // path: 'kgraph',
-    //     // component: () => import('../views/home/Kgraph'),
-
-    //   }
-    // ]
+    component: Home,
+    children: [ // 二级路由的配置
+      {
+        path: 'deviceC',
+        component: () => import('../views/home/deviceC')
+      },
+      {
+        path: 'monitor',
+        component: () => import('../views/home/monitor')
+      }
+    ]
   },
   { // 默认路由的设置
     path: '/login',

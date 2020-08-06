@@ -7,6 +7,9 @@ import 'bootstrap/dist/js/bootstrap.min'
 import MintUI from 'mint-ui'
 import globelV from './API/globel_varible'
 import globelF from './API/globel_function'
+import echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts
 
 Vue.prototype.GLOBEL = globelV
 
