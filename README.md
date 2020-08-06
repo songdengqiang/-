@@ -2,6 +2,7 @@
 
 ## Project setup
 ```
+先装上yarn包管理器，下载地址：https://yarn.bootcss.com/docs/install/#windows-stable
 yarn install
 ```
 
