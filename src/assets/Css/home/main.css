@@ -128,7 +128,7 @@
     position: absolute;
     width: 20%;
     height: 3px;
-    left: 18%;
+    left: 10%;
     background: linear-gradient(to right,black,#004545);
 }
 .titles::after{
@@ -136,7 +136,7 @@
     position: absolute;
     width: 20%;
     height: 3px;
-    right: 18%;
+    right: 10%;
     background: linear-gradient(to left,black,#004545);
 }
 .titles1::before{

@@ -327,8 +327,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped >
 /* 主体内容的设置 */
-  @import url("../../assets/Css/home/main.css");
-  @import url("../../assets/Css/common/tables.css");
+@import url("../../assets/Css/common/tables.css");
+@import url("../../assets/Css/home/main.css");
 </style>
